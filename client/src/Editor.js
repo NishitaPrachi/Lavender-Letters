@@ -15,7 +15,8 @@ export default function Editor({value,onChange}){
     return(
     <ReactQuill value={value} 
      modules={modules} 
-   
+      className='white'
+      
      onChange={onChange}/>
     )
 }

@@ -33,7 +33,7 @@ if(redirect){
 
     return(
      <form className="login"  onSubmit={login}>
-        <h1>Login</h1>
+        <h1 className="cursive">Login</h1>
         <input type="text"  placeholder="Username" 
         value={username} 
         onChange={ev=> setUsername(ev.target.value)}
@@ -41,7 +41,7 @@ if(redirect){
         <input type="password" placeholder="password"
          value={password} 
          onChange={ev=> setPassword(ev.target.value)} />
-        <button>Submit</button>
+        <button className="lavender-btn">Submit</button>
      </form>
     )
 }

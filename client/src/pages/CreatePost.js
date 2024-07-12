@@ -54,20 +54,22 @@ if(response.ok){
      <input type="title"
       placeholder={'Title'} 
       value={title}
+      className='normal-font'
       onChange={ev=>setTitle(ev.target.value)}/>
 
      <input type="summary" 
      placeholder={'Summary'} 
+     className='normal-font'
      value={summary}
      onChange={ev=>setSummary(ev.target.value)}/>
 
-     <input type="file"  
+     <input type="file" className='normal-font' 
      onChange={ev=> setFiles(ev.target.files)}
      />
-<Editor onChange={setContent} value={content}/>
+<Editor onChange={setContent} value={content} className='normal-font' style={{background:"white"}}/>
     
 
-   <button style={{marginTop:'5px'}}>Create Post</button>
+   <button style={{marginTop:'5px',background:"#6E5B9A",color:"#fff"}} className='.lavender-btn normal-font'  >Create Post</button>
     </form>
 
     );

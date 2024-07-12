@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-
+import cutu from './images/lavender.png'
 import { useContext, useEffect , useState} from 'react';
 import { UserContext } from './UserContext';
 
@@ -30,18 +30,22 @@ export default function Header(){
 
     
       <header>
-      <Link to='/' className='logo'>My Blog</Link>
+      <Link to='/' className='logo'>
+      Lavender Letters
+      <img src={cutu} alt="" width={50} height={50} />
+      </Link>
       <nav>
         {username && (
-          <>
-          <Link to="/create">Create New Post</Link>
-          <a onClick={logout}>Logout</a>
+       <>
+          <Link to="/create" className='fpage'>Create New Post</Link>
+          <a onClick={logout} className='fpage'>Logout</a>
           </>
+         
         )}
         {!username && (
             <>
-            <Link to="/login">Login</Link>
-            <Link to="/register">Register</Link>
+            <Link to="/login" className='fpage'>Login</Link>
+            <Link to="/register" className='fpage' >Register</Link>
             </>
           )
         }
