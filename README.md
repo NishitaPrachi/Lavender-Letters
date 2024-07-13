@@ -30,9 +30,6 @@ Lavender Letter is designed to provide a comprehensive and enjoyable blogging ex
 - Express - Web framework
 - MongoDB - Database
 - React - Client library
-## Demo
-
-Insert gif or link to demo
 
 
 ## Demo
