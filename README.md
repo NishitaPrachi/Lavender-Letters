@@ -32,8 +32,6 @@ Lavender Letter is designed to provide a comprehensive and enjoyable blogging ex
 - React - Client library
 
 
-## Demo
-
 ## Screenshots
 Landing Page, anyone can view without register and login.
 
