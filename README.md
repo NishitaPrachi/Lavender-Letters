@@ -38,6 +38,7 @@ Insert gif or link to demo
 ## Demo
 
 ## Screenshots
+Landing Page, anyone can view without register and login.
 ![Image Alt](https://github.com/NishitaPrachi/Lavender-Letters/blob/6a9974c3be180bb30e9c825dcfdc3b26974b9a0c/lavender%20screenshots/Screenshot%202024-07-13%20at%204.10.06%20PM.png)
 
 
