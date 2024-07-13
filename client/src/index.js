@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import {disableReactDevTools} from '@fvilers/disable-react-devtools'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
