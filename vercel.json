@@ -1,0 +1,12 @@
+{
+    "buildcommand": "cd test-repo && cd client && yarn install && yarn build",
+    "outpurDirectory":"/test-repo/client/build",
+    "framework":"MERN",
+    "rewrites":[
+        {
+            "source":"/test-repo/api/(.*)",
+            "destination":"/test-repo/api/index.js"
+        }
+    ]
+    
+}
