@@ -39,6 +39,38 @@ Insert gif or link to demo
 
 ## Screenshots
 Landing Page, anyone can view without register and login.
+
 ![Image Alt](https://github.com/NishitaPrachi/Lavender-Letters/blob/6a9974c3be180bb30e9c825dcfdc3b26974b9a0c/lavender%20screenshots/Screenshot%202024-07-13%20at%204.10.06%20PM.png)
 
+
+Register Page
+
+![Image Alt](https://github.com/NishitaPrachi/Lavender-Letters/blob/66d2c145620e7c5c8c0ddac4fff51137f1bc4fe0/lavender%20screenshots/Screenshot%202024-07-13%20at%204.11.33%20PM.png)
+
+
+Login Page
+
+![Image Alt](https://github.com/NishitaPrachi/Lavender-Letters/blob/66d2c145620e7c5c8c0ddac4fff51137f1bc4fe0/lavender%20screenshots/Screenshot%202024-07-13%20at%204.12.07%20PM.png)
+
+
+User Can create Post 
+
+![Image Alt](https://github.com/NishitaPrachi/Lavender-Letters/blob/66d2c145620e7c5c8c0ddac4fff51137f1bc4fe0/lavender%20screenshots/Screenshot%202024-07-13%20at%204.20.35%20PM.png)
+
+
+Image upload
+
+![Image Alt](https://github.com/NishitaPrachi/Lavender-Letters/blob/66d2c145620e7c5c8c0ddac4fff51137f1bc4fe0/lavender%20screenshots/Screenshot%202024-07-13%20at%204.18.58%20PM.png)
+
+
+Update Post, users can update their pre-existing posts
+
+![Image Alt](https://github.com/NishitaPrachi/Lavender-Letters/blob/66d2c145620e7c5c8c0ddac4fff51137f1bc4fe0/lavender%20screenshots/Screenshot%202024-07-13%20at%204.15.16%20PM.png)
+
+![Image Alt](https://github.com/NishitaPrachi/Lavender-Letters/blob/66d2c145620e7c5c8c0ddac4fff51137f1bc4fe0/lavender%20screenshots/Screenshot%202024-07-13%20at%204.21.09%20PM.png)
+
+
+Read only users cannot update post( with login and register)
+
+![Image Alt](https://github.com/NishitaPrachi/Lavender-Letters/blob/66d2c145620e7c5c8c0ddac4fff51137f1bc4fe0/lavender%20screenshots/Screenshot%202024-07-13%20at%204.14.10%20PM.png)
 
