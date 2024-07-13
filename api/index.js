@@ -1,7 +1,9 @@
 const express= require("express");
 const cors=require("cors");
 const bcrypt = require('bcryptjs');
-
+require("dotenv").config();
+const { CloudinaryStorage } = require('multer-storage-cloudinary');
+const cloudinary = require('cloudinary').v2;
 const mongoose= require("mongoose");
 const User= require('./models/User');
 const app=express();
@@ -15,11 +17,7 @@ const salt = bcrypt.genSaltSync(10);
 const secret='ndehbfnedjnfhbc7q37gdghb782'
 
 
-app.use(cors({
- credentials:true, 
- methods:["POST","GET"],
- origin:'http://localhost:3000'
-}));
+app.use(cors({credentials:true, origin:'http://localhost:3000'}));
 
 app.use(express.json());
 
